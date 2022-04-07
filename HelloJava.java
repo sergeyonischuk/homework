@@ -7,12 +7,10 @@ public class HelloJava {
 
         public static int getFirstDigit(int number) {
             String numberString = Integer.toString(number);
-            String firstSymbol = numberString.substring(0,1);
-            return Integer.parseInt(firstSymbol);
+            return Integer.parseInt(numberString.substring(0,1));
         }
         public static int getSecondDigit(int number) {
             String numberString = Integer.toString(number);
-            String secondSymbol = numberString.substring(1,2);
-            return Integer.parseInt(secondSymbol);
+            return Integer.parseInt(numberString.substring(1,2));
         }
 }
